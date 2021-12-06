@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
-nav: true
-display_categories: [work, fun]
+title: methods
+permalink: #/methods/
+description: tbd
+nav: false #change to true if wanted in menu
+display_categories: false
 horizontal: false
 ---
 <div class="projects">

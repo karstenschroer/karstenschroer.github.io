@@ -6,19 +6,22 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Karsten
 middle_name:
 last_name: Schroer
-email: #you@example.com
+email: karsten.schroer@wiso.uni-koeln.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  A (hopefully) concise overview of who I am and what I do.
+  I use this website to document my research interests,
+  ongoing projects, publications and related news.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-icon: 🔥 # the emoji used as the favicon
+icon: 💡 # the emoji used as the favicon
 url: https://karstenschroer.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+
+
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -49,11 +52,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: KaSchr # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+twitter_username: KarstenSchroer # your Twitter handle
+linkedin_username: karsten-schroer-72621b73 # your LinkedIn user name
+scholar_userid: Karsten Schroer # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -68,8 +71,7 @@ stackoverflow_id: #your stackoverflow id
 
 rss_icon: false
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: Interested in my research, potential collaborations or any other engagements? Please get in touch via any of the above channels. #>You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -78,13 +80,13 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+blog_name: #Karsten's Blog  # your blog must have a name for it to show up in the nav bar
+blog_description: #blog which might be added in the future
+permalink: #/blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
@@ -182,8 +184,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Schroer
+  first_name: [Karsten, K.]
 
   style: apa
   locale: en
@@ -227,7 +229,7 @@ responsive_image:
 # Jekyll Diagrams
 # -----------------------------------------------------------------------------
 
-jekyll-diagrams:
+#jekyll-diagrams:
     # configuration, see https://github.com/zhustec/jekyll-diagrams.
     # feel free to comment out this section if not using jekyll diagrams.
 
